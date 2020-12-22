@@ -3,36 +3,34 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="styles.css" rel="stylesheet"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="styles.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
-CSS rules to specify families
         <title>My Budget App</title>
     </head>
     <body>
         <main>
             <section id="monthly_budget_section">
                 <h1>Monthly Budget</h1>
-                <p id="monthly_budget_section"></p>
+                <p id="monthly_budget"></p>
                 <form>
-                    <input type="number" id="income_input" placeholder="Monthly Income"/>
+                    <input type="number" id="income_input" placeholder="Monthly income"/>
                     <button id="update_budget">Update Budget</button>
                 </form>
             </section>
             <section id="add_expense_section">
-                <h1>Add Expense</h1>
+                <h1>Add expense:</h1>
                 <form>
-                <input type="text" id="name_input" placeholder="Expense Name"/>
-                <input type="number" id="amount_input" placeholder="Expense Amount"/>
-                <button id="add _expense">Add Expense</button>
+                <input type="text" id="name_input" placeholder="Expense name"/>
+                <input type="number" id="amount_input" placeholder="Expense amount"/>
+                <button id="add_expense">Add Expense</button>
                 </form>
             </section>
             <section id="expense_list_section">
-                <h1>Monthly Expenses</h1>
+                <h1>Monthly expenses:</h1>
                 <div id="expense_list"></div>
             </section>
             <section id="expense_total_section">
-                <h1>Total Expenses:</h1>
+                <h1>Total expenses:</h1>
                 <div id="total_expenses"></div>
             </section>
             <section id="remaining_balance_section">
@@ -41,6 +39,6 @@ CSS rules to specify families
             </section>
             </section>
         </main>
-        <script src="script.js"></script>
     </body>
+    <script src="script.js"></script>
 </html>
